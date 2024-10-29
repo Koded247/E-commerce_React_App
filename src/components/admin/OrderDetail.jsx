@@ -74,7 +74,7 @@ const OrderDetail = () => {
 
                                 <th scope="col"
                                     className="h-12 px-6 text-md font-bold fontPara border-l first:border-l-0 border-pink-100 text-slate-700 bg-slate-100">
-                                    Pincode
+                                    promo code
                                 </th>
 
                                 <th scope="col"
@@ -128,7 +128,7 @@ const OrderDetail = () => {
                                                     </td>
 
                                                     <td className="h-12 px-6 text-md transition duration-300 border-t border-l first:border-l-0 border-pink-100 stroke-slate-500 text-slate-500 first-letter:uppercase ">
-                                                        ₹{price}
+                                                        NGN {price}
                                                     </td>
 
                                                     <td className="h-12 px-6 text-md transition duration-300 border-t border-l first:border-l-0 border-pink-100 stroke-slate-500 text-slate-500 first-letter:uppercase ">
@@ -136,7 +136,7 @@ const OrderDetail = () => {
                                                     </td>
 
                                                     <td className="h-12 px-6 text-md transition duration-300 border-t border-l first:border-l-0 border-pink-100 stroke-slate-500 text-slate-500 first-letter:uppercase ">
-                                                        ₹{price * quantity}
+                                                        NGN {price * quantity}
                                                     </td>
 
                                                     <td className="h-12 px-6 text-md transition duration-300 border-t border-l text-green-600  first:border-l-0 border-pink-100 stroke-slate-500 text-slate-500 first-letter:uppercase ">
